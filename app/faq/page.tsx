@@ -33,6 +33,10 @@ const faqs: { q: string; a: string }[] = [
         q: "How many replies do I get?",
         a: "One. One entry → one reply → one closing moment.",
     },
+    {
+        q: "What if I close the page after paying?",
+        a: "After checkout, a resume link will arrive by email. Your link is valid for 24 hours and allows one message submission during that time. If it’s not visible, check Spam/Promotions and mark it as “Not spam.”",
+    },
 ];
 
 export default function FaqPage() {
