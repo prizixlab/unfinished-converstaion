@@ -25,11 +25,11 @@ export default function IntakeForm({ sessionId }: { sessionId: string }) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          session_id: sessionId,
-          senderName,
-          recipientName,
-          recipientEmail,
+          sessionId,
+          name: senderName,
+          recipient: recipientName,
           message,
+          email: recipientEmail,
         }),
       });
 
